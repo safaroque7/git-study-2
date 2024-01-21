@@ -1,13 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Git Study 2 </title>
-</head>
+<html>
+<style>
+    details[open]>summary {
+        background-color: red;
+        color: white;
+    }
+
+    .main-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .per-item {
+        width: 30.00%;
+        margin-left: 3%;
+        background: red;
+    }
+
+    img {
+        max-width: 100%;
+    }
+</style>
+
 <body>
 
-    <h2> We are learning Git and Github about three conditions of Git Repositaroy. </h2>
-    
+    <h1>The summary element</h1>
+
+    <details>
+        <summary>Epcot Center</summary>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+        award-winning fireworks and <time> seasonal </time> <mark> special </mark> events.
+    </details>
+
+    <details>
+        <summary>Boss</summary>
+        <p>Bayzid sir</p>
+    </details>
+
+    <div class="main-box">
+        <div class="per-item">
+            <figure>
+                <img src="https://picsum.photos/id/10/800/650" alt="image">
+                <figcaption> This is a picture. </figcaption>
+            </figure>
+        </div>
+        <div class="per-item">
+            <figure>
+                <img src="https://picsum.photos/id/10/800/650" alt="image">
+                <figcaption> This is a picture. </figcaption>
+            </figure>
+        </div>
+        <div class="per-item">
+            <figure>
+                <img src="https://picsum.photos/id/10/800/650" alt="image">
+                <figcaption> This is a picture. </figcaption>
+            </figure>
+        </div>
+    </div>
+
+
+    <details>
+        <summary> How can I buy it? </summary>
+        <p> You can buy it very easily. First of all you click the product image. After that you will get a page to purchase. Thank you. </p>
+    </details>
+
+
+
+    <div>
+        <img src="https://picsum.photos/id/15/350/250" alt="image">
+        <p> This is a picture. </p>
+    </div>
+
 </body>
+
 </html>
